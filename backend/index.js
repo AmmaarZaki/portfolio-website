@@ -6,7 +6,7 @@ import morgan from "morgan"
 import path from "path"
 
 import projectRoutes from "./routes/projectRoute.js"
-import { initDb } from "./config/dbtable.js"
+import { initDb } from "./config/dbTable.js"
 import { useArcJet } from "./library/arcjet.js"
 
 dotenv.config();

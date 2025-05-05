@@ -72,7 +72,7 @@ export const useProjectStore = create((set, get) => ({
             } else {
                 set({
                     project: null,
-                    error: `Something went wrong. Faild to get project id: ${id}`
+                    error: `Something went wrong. Failed to get project id: ${id}`
                 });
                 console.log("error", error);
             }
